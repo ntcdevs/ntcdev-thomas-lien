@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
+    "name": "THOMAS LIEN",
     "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "category": "other",
+    "phone": "92625326",
+    "email": "thomaslien@yahoo.com",
+    "address": "Thereses gate 42, 0354 Oslo"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f0f7ff",
+    "accentColor": "#2563eb",
+    "textColor": "#0f172a",
+    "heroColor": "#e8f2ff",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
-    "ctaText": "Bestill Time",
+    "variant": "minimal",
+    "eyebrow": "Profesjonelle Tjenester · Oslo",
+    "headline": "Thomas",
+    "headlineAccent": "Lien",
+    "subheadline": "Pålitelig og dedikert fagmann i Oslo – vi leverer kvalitet, personlig service og løsninger tilpasset akkurat dine behov.",
+    "ctaText": "Få Tilbud",
     "ctaSecondary": "Se Tjenester"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "10+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "500+",
+        "label": "Fornøyde kunder"
+      },
+      {
+        "value": "100%",
+        "label": "Kvalitetsgaranti"
+      },
+      {
+        "value": "6",
+        "label": "Dager åpent"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
     "eyebrow": "Hva vi tilbyr",
     "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "cta": "Ta Kontakt for Tilbud",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Rådgivning",
+        "desc": "Vi tilbyr profesjonell rådgivning skreddersydd for din situasjon og dine mål.",
+        "icon": "Star",
+        "price": ""
+      },
+      {
+        "name": "Prosjektledelse",
+        "desc": "Effektiv styring av prosjekter fra start til mål, med fokus på kvalitet og tidsfrister.",
+        "icon": "Shield",
+        "price": ""
+      },
+      {
+        "name": "Vedlikehold & Oppfølging",
+        "desc": "Langsiktig oppfølging og vedlikehold som sikrer at alt fungerer optimalt over tid.",
+        "icon": "Wrench",
+        "price": ""
+      }
     ]
   },
   "about": {
     "eyebrow": "Om Oss",
-    "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "heading": "Historien Bak Thomas Lien",
+    "body": "Thomas Lien har i over et tiår levert profesjonelle tjenester til kunder i Oslo og omegn. Med en genuin lidenskap for kvalitet og et sterkt fokus på kundetilfredshet, har virksomheten bygget et solid omdømme i lokalmiljøet. Vi tror på langsiktige relasjoner, åpen kommunikasjon og resultater som taler for seg selv.",
+    "stat1": {
+      "value": "10+",
+      "label": "Års erfaring"
+    },
+    "stat2": {
+      "value": "500+",
+      "label": "Gjennomførte oppdrag"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Dedikasjon til kvalitet"
+    }
   },
   "gallery": {
     "eyebrow": "Portefølje",
     "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "subheading": "Et utvalg av prosjekter vi er stolte av å ha levert til kunder i Oslo."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Erik Johansen",
+        "role": "Fast kunde siden 2019",
+        "text": "Thomas er grundig, pålitelig og leverer alltid over forventning. Jeg anbefaler ham på det varmeste til alle som trenger profesjonell hjelp.",
+        "rating": 5
+      },
+      {
+        "name": "Marte Solberg",
+        "role": "Fast kunde siden 2021",
+        "text": "Fantastisk service fra start til slutt. Thomas tok seg tid til å forstå behovene mine og leverte et resultat jeg er svært fornøyd med.",
+        "rating": 5
+      },
+      {
+        "name": "Anders Kristiansen",
+        "role": "Ny kunde",
+        "text": "Ble anbefalt Thomas av en kollega, og skjønner godt hvorfor. Profesjonell, imøtekommende og et strålende sluttresultat.",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
     "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "subheading": "Vi hører gjerne fra deg – send oss en melding eller ring for en uforpliktende samtale."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
